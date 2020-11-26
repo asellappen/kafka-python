@@ -24,8 +24,8 @@ env:
     - KAFKA_VERSION=2.6.0
 jobs:
   exclude:
-    -arch : ppc64le
-     python :  
+    - arch : ppc64le
+      python :  
             - "2.7"
             - "pypy2.7-6.0"
             
