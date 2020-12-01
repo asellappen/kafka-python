@@ -26,6 +26,8 @@ jobs:
     - arch : ppc64le
       python :  
             - "2.7"
+    - arch : ppc64le
+      python :  
             - "pypy2.7-6.0"
             
 addons:
