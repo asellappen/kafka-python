@@ -3,7 +3,7 @@ arch:
     - amd64
     - ppc64le
 
-dist: xenial
+dist: bionic
 
 python:
     - 2.7
@@ -26,6 +26,9 @@ jobs:
     - arch : ppc64le
       python :  
             - "2.7"
+    - arch : ppc64le
+      python :  
+            - "3.4"
     - arch : ppc64le
       python :  
             - "pypy2.7-6.0"
