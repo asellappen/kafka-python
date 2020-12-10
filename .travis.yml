@@ -4,9 +4,7 @@ arch:
     - ppc64le
 dist: bionic
 
-
 python:
-    - 2.7
     - 3.4
     - 3.7
     - 3.8
